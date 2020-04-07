@@ -2,25 +2,25 @@ var kittens = ["Milo", "Otis", "Garfield"]
 
 function destructivelyAppendKitten(name) {
   kittens = ["Milo", "Otis", "Garfield"]
-  kitten.push(name)
+  kittens.push(name)
   return kitten
 }
 
 function destructivelyPrependKitten(name) {
   kittens = ["Milo", "Otis", "Garfield"]
-  kitten.unshift(name)
+  kittens.unshift(name)
   return kitten
 }
 
 function destructivelyRemoveLastKitten() {
   kittens = ["Milo", "Otis", "Garfield"]
-  kitten.pop()
+  kittens.pop()
   return kitten
 }
 
 function destructivelyRemoveFirstKitten() {
   kittens = ["Milo", "Otis", "Garfield"]
-  kitten.shift()
+  kittens.shift()
   return kitten
 }
 
