@@ -26,28 +26,24 @@ function destructivelyRemoveFirstKitten() {
 
 function appendKitten(name) {
   kittens = ["Milo", "Otis", "Garfield"]
-  new_kittens = kittens
-  new_kittens.push(name)
-  return new_kittens
+  kittens.push(name)
+  return kittens
 }
 
 function prependKitten(name) {
   kittens = ["Milo", "Otis", "Garfield"]
-  new_kittens = kittens
-  new_kittens.unshift(name)
-  return new_kittens
+  kittens.unshift(name)
+  return kittens
 }
 
 function removeLastKitten() {
   kittens = ["Milo", "Otis", "Garfield"]
-  new_kittens = kittens
-  new_kittens.pop()
-  return new_kittens
+  kittens.pop()
+  return kittens
 }
 
 function removeFirstKitten() {
   kittens = ["Milo", "Otis", "Garfield"]
-  new_kittens = kittens
-  new_kittens.shift()
-  return new_kittens
+  kittens.shift()
+  return kittens
 }
